@@ -31,9 +31,7 @@ public class TiempoJugado extends Thread{
                     }
                 }               
             JuegoSerpiente.tiempojugado.setText(hora + ":" + minuto + ":" + segundo);
-            Thread.sleep(1000); 
-            //SerpientePanel.itervalo();
-            
+            Thread.sleep(1000);          
             }           
         } catch (Exception ex) {
              System.out.println(ex.getMessage());

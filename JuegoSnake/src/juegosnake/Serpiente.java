@@ -190,7 +190,7 @@ public class Serpiente extends JPanel{
                 + "          <h1>Tamaño</h1>\n"
                 + "          <h2>"+JuegoSerpiente.SerpienteTam.getText()+"</h1>\n"
                 + "          <h1>Intervalo</h1>\n"
-                + "          <h2>+ MovimientoSerpiente.intervalo+</h1>\n"
+                + "          <h2>"+JuegoSerpiente.IntervaloTiempo.getText()+"</h1>\n"
                 + "          <h1>Timpo</h1>\n"
                  + "          <h2>"+JuegoSerpiente.tiempojugado.getText() +"</h1>\n"
                 + "      </tr>\n"

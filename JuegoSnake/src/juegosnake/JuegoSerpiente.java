@@ -22,6 +22,7 @@ public class JuegoSerpiente extends javax.swing.JFrame {
 //        SerpientePanel.setOpaque(false);
         Panel colorpanel = new Panel(300, 10);
         jPanel1.add(colorpanel);
+        tiempojugado.setOpaque(true);
         colorpanel.setBounds(10, 10, 800, 800);
         //SerpienteTam.setText("2");
 //        Nivel.addItem("Facil");
